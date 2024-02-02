@@ -1,11 +1,11 @@
 ![Webpack-app-starter](https://socialify.git.ci/darshangaikwad4114/Webpack-app-starter/image?language=1&logo=https%3A%2F%2Fskillicons.dev%2Ficons%3Fi%3Dwebpack&name=1&pattern=Solid&theme=Light)
 
-# Webpack App Starter
+# Webpack App Starter :rocket:
 
 Frontend environment for building JavaScript applications
 Includes the following features...
 
-- Babel Loader 
+- Babel Loader
 - Sass Loader With Dart Sass
 - HTMLWebpackPlugin
 - WebpackDevServer
@@ -13,7 +13,7 @@ Includes the following features...
 - Source Maps
 - Caching
 
-# Webpack App Starter
+# Webpack App Starter :rocket:
 
 This is a frontend environment for building JavaScript applications using Webpack. It includes the following features:
 
@@ -25,19 +25,19 @@ This is a frontend environment for building JavaScript applications using Webpac
 - Source Maps: Generates source maps to help with debugging and understanding the original code structure.
 - Caching: Implements caching mechanisms to improve performance by reducing unnecessary recompilations.
 
-## Getting Started
+## Getting Started :rocket:
 
 To use this project, follow these steps:
 
 1. Clone the repository to your local machine.
-`git clone https://github.com/darshangaikwad4114/Webpack-app-starter.git`
+   `git clone https://github.com/darshangaikwad4114/Webpack-app-starter.git`
 2. Install the required dependencies by running `npm install` or `yarn install`.
 3. Customize the configuration files according to your project requirements.
 4. Start the development server by running `npm start` or `yarn start`.
 5. Open your browser and navigate to `http://localhost:8080` (or the specified port).
 6. Begin developing your JavaScript application using the provided environment.
 
-## Contributing
+## Contributing :raised_hands:
 
 If you would like to contribute to this project, please follow these guidelines:
 
@@ -46,6 +46,6 @@ If you would like to contribute to this project, please follow these guidelines:
 3. Write tests to cover your changes, if applicable.
 4. Submit a pull request with a clear description of your changes and their purpose.
 
-## License
+## License :page_with_curl:
 
 This project is licensed under the [MIT License](LICENSE).
