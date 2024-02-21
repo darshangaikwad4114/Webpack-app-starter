@@ -1,9 +1,8 @@
-name: "publish npm"
+name: Publish to npm
 
 on:
-  push:
-    branches:
-      - main # Adjust the branch if needed
+  release:
+    types: [published]
 
 jobs:
   publish:
@@ -18,8 +17,11 @@ jobs:
           node-version: 14.x
           registry-url: https://registry.npmjs.org
 
-      - name: Navigate to package directory
-        run: cd src # Adjust if necessary
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build package (if required)
+        run: npm run build  # Adjust if you have a build step
 
       - name: Publish to npm
         run: npm publish --access public
