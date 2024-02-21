@@ -21,7 +21,7 @@ jobs:
         run: npm ci
 
       # - name: Build package (if required)
-        # run: npm run build  # Adjust if you have a build step
+      # run: npm run build  # Adjust if you have a build step
 
       - name: Publish to npm
         run: npm publish --access public
