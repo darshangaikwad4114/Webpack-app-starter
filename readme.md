@@ -2,28 +2,31 @@
 
 # Webpack App Starter :rocket:
 
-Frontend environment for building JavaScript applications
-Includes the following features...
+The Webpack App Starter is a boilerplate for JavaScript applications. It includes development dependencies like Babel, CSS loaders, HTML Webpack Plugin, and Sass compiler. The project uses axios for API requests. To use, clone the repository, install dependencies, customize configurations, and start the development server. Contributions are welcome following the guidelines in the readme. The project is under the MIT License.
 
-- Babel Loader
-- Sass Loader With Dart Sass
-- HTMLWebpackPlugin
-- WebpackDevServer
-- Asset Resource Loader
-- Source Maps
-- Caching
+Webpack App Starter Dependencies Documentation
 
-# Webpack App Starter :rocket:
+## Devlopment Dependencies
 
-This is a frontend environment for building JavaScript applications using Webpack. It includes the following features:
+- **@babel/core** (`^7.23.9`): Babel core library for JavaScript transpilation.
+- **@babel/preset-env** (`^7.23.9`): Babel preset for compiling modern JavaScript syntax to older versions.
+- **babel-loader** (`^8.3.0`): Webpack loader for transpiling JavaScript files using Babel.
+- **css-loader** (`^6.10.0`): Webpack loader for loading CSS files.
+- **html-webpack-plugin** (`^5.6.0`): Webpack plugin for generating HTML files with injected bundles.
+- **mini-css-extract-plugin** (`^2.8.0`): Webpack plugin for extracting CSS into separate files.
+- **sass** (`^1.71.1`): Sass compiler for transforming Sass files to CSS.
+- **sass-loader** (`^12.6.0`): Webpack loader for loading Sass files.
+- **style-loader** (`^3.3.4`): Webpack loader for injecting CSS styles into the DOM.
+- **webpack** (`^5.90.3`): Module bundler for JavaScript applications.
+- **webpack-bundle-analyzer** (`^4.10.1`): Webpack plugin for analyzing bundle sizes.
+- **webpack-cli** (`^4.10.0`): Command-line interface for running Webpack commands.
+- **webpack-dev-server** (`^4.15.1`): Development server for serving Webpack bundles.
 
-- Babel Loader: Allows you to use modern JavaScript syntax and transpile it for compatibility with older browsers.
-- Sass Loader With Dart Sass: Enables you to write CSS styles using Sass and compile them into regular CSS.
-- HTMLWebpackPlugin: Simplifies the creation of HTML files that are automatically injected with the necessary bundles.
-- WebpackDevServer: Provides a development server with live reloading for a smooth development experience.
-- Asset Resource Loader: Handles the loading of various assets such as images, fonts, and other files.
-- Source Maps: Generates source maps to help with debugging and understanding the original code structure.
-- Caching: Implements caching mechanisms to improve performance by reducing unnecessary recompilations.
+## Dependencies
+
+- **axios** (`^0.26.1`): Promise-based HTTP client for making API requests.
+
+#
 
 ## Getting Started :rocket:
 
