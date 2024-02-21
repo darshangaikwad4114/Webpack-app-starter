@@ -19,7 +19,7 @@ jobs:
           registry-url: https://registry.npmjs.org
 
       - name: Navigate to package directory
-        run: cd my-package # Adjust if necessary
+        run: cd src # Adjust if necessary
 
       - name: Publish to npm
         run: npm publish --access public
