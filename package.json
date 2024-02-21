@@ -34,5 +34,7 @@
     "webpack-dev-server",
     "hot module replacement",
     "bundle analyzer"
-  ]
+  ],
+  "type": "commonjs",
+  "url": "https://github.com/darshangaikwad/webpack-app-starter"
 }
