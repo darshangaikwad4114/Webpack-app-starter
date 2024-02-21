@@ -2,7 +2,10 @@
   "name": "webpack-app-starter",
   "version": "1.0.0",
   "description": "Webpack App Starter Kit with Babel, Sass, and Webpack Dev Server with Hot Module Replacement and Bundle Analyzer built-in.",
-  "author": "Darshan Gaikwad",
+  "author": {
+    "name": "Darshan Gaikwad",
+    "email": "darshangaikwad4114@gmail.com"
+  },
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open",
@@ -35,6 +38,14 @@
     "hot module replacement",
     "bundle analyzer"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darshangaikwad4114/webpack-starter-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/darshangaikwad4114/webpack-starter-app/issues"
+  },
+  "homepage": "https://github.com/darshangaikwad4114/webpack-starter-app#readme",
   "type": "commonjs",
   "url": "https://github.com/darshangaikwad/webpack-app-starter"
 }
