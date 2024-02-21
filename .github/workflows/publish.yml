@@ -1,20 +1,27 @@
 name: "publish npm"
 
-on: push
+on:
+  push:
+    branches:
+      - main # Adjust the branch if needed
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
+      - name: Checkout repository
         uses: actions/checkout@v2
-      - name: node
+
+      - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 20
+          node-version: 14.x
           registry-url: https://registry.npmjs.org
-      - name: publish
+
+      - name: Navigate to package directory
+        run: cd my-package # Adjust if necessary
+
+      - name: Publish to npm
         run: npm publish --access public
-        working-directory: my-package
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
