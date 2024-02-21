@@ -1,5 +1,5 @@
 {
-  "name": "@darshangaikwad4114/-app-starter",
+  "name": "@darshangaikwad4114/webpack-app-starter",
   "version": "1.0.0",
   "description": "Webpack App Starter Kit with Babel, Sass, and Webpack Dev Server with Hot Module Replacement and Bundle Analyzer built-in.",
   "author": {
