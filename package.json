@@ -6,7 +6,6 @@
     "name": "Darshan Gaikwad",
     "email": "darshangaikwad4114@gmail.com"
   },
-  "main": "index.js",
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack --mode production"
@@ -45,7 +44,5 @@
   "bugs": {
     "url": "https://github.com/darshangaikwad4114/webpack-starter-app/issues"
   },
-  "homepage": "https://github.com/darshangaikwad4114/webpack-starter-app#readme",
-  "type": "commonjs",
-  "url": "https://github.com/darshangaikwad/webpack-app-starter"
+  "homepage": "https://github.com/darshangaikwad4114/webpack-starter-app#readme"
 }
