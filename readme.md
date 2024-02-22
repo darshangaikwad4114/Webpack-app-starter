@@ -8,7 +8,6 @@ Webpack App Starter Dependencies Documentation
 
 ## Devlopment Dependencies
 
-- **@babel/core** (`^7.23.9`): Babel core library for JavaScript transpilation.
 - **@babel/preset-env** (`^7.23.9`): Babel preset for compiling modern JavaScript syntax to older versions.
 - **babel-loader** (`^8.3.0`): Webpack loader for transpiling JavaScript files using Babel.
 - **css-loader** (`^6.10.0`): Webpack loader for loading CSS files.
@@ -39,6 +38,15 @@ To use this project, follow these steps:
 4. Start the development server by running `npm start` or `yarn start`.
 5. Open your browser and navigate to `http://localhost:8080` (or the specified port).
 6. Begin developing your JavaScript application using the provided environment.
+
+## Configuration
+
+To configure the Webpack App Starter, follow these steps:
+
+1. Open the project's root directory.
+2. Locate the `webpack.config.js` file.
+3. Open the `webpack.config.js` file in a text editor.
+4. Modify the configuration options according to your project requirements.
 
 ## Contributing :raised_hands:
 
