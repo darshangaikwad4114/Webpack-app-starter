@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-$font-family: "Poppins", sans-serif;
+$font-family: 'Poppins', sans-serif;
 $primary-color: #2fcc51;
 $secondary-color: #f4f4f4;
 $btn-color: #1fa43c;
-$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+$box-shadow:
+  0 10px 20px rgba(0, 0, 0, 0.1),
+  0 6px 6px rgba(0, 0, 0, 0.1);
 
 * {
   box-sizing: border-box;
@@ -57,7 +59,9 @@ img {
   color: $secondary-color;
   border: 0;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  box-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.1),
+    0 6px 6px rgba(0, 0, 0, 0.1);
   padding: 14px 50px;
   font-size: 16px;
   cursor: pointer;
