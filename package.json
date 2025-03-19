@@ -7,8 +7,12 @@
     "email": "darshangaikwad4114@gmail.com"
   },
   "scripts": {
-    "start": "webpack serve --open",
-    "build": "webpack --mode production"
+    "prefavicon": "node src/assets/createFavicon.js",
+    "start": "npm run prefavicon && webpack serve --open",
+    "build": "npm run prefavicon && webpack --mode production",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write \"src/**/*.{js,html,scss}\"",
+    "analyze": "webpack --mode production --analyze"
   },
   "license": "MIT",
   "devDependencies": {
@@ -16,9 +20,14 @@
     "@babel/preset-env": "^7.26.9",
     "babel-loader": "^8.4.1",
     "css-loader": "^6.11.0",
+    "dotenv-webpack": "^8.0.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
     "html-webpack-plugin": "^5.6.3",
     "mini-css-extract-plugin": "^2.9.2",
-    "sass": "^1.85.1",
+    "prettier": "^3.2.5",
+    "sass": "^1.86.0",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.4",
     "webpack": "^5.98.0",
@@ -27,7 +36,7 @@
     "webpack-dev-server": "^4.15.2"
   },
   "dependencies": {
-    "axios": "^0.26.1"
+    "axios": "^1.6.8"
   },
   "keywords": [
     "webpack",
